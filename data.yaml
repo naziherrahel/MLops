@@ -1,0 +1,6 @@
+path: 'C:/Users/Администратор/Desktop/MLops/MLops/data/processed'
+train: 'train/images'     
+val: 'val/images'  
+#class names 
+names:
+  0: ['Dust']

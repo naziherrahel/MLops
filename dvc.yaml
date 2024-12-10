@@ -19,13 +19,13 @@ stages:
       - data/processed/val/
       - params.yaml
     outs:
-      - runs/train/weights/best.pt
+      - runs/detect/train/weights/best.pt
 
   evaluate:
     cmd: python src/eval.py
     deps:
       - src/eval.py
-      - runs/train/weights/best.pt
+      - runs/detect/train/weights/best.pt
       - params.yaml
     outs:
       - runs/predictions/
