@@ -5,9 +5,9 @@ stages:
     deps:
     - path: data/raw/images
       hash: md5
-      md5: 73df3d3d6e5d9471f37e77d91750b179.dir
-      size: 248117942
-      nfiles: 535
+      md5: 7c674869aa2309ed26f0d261f3e3851d.dir
+      size: 246747329
+      nfiles: 532
     - path: data/raw/labels
       hash: md5
       md5: 23f5402abcb03dcffb506e616bb2a34a.dir
@@ -15,21 +15,21 @@ stages:
       nfiles: 535
     - path: src/data_split.py
       hash: md5
-      md5: 287089ee5842c40b243a417db42eaeee
-      size: 2291
+      md5: 6802e40f3b6c1cb347ba8823efab1c3e
+      size: 2348
     outs:
     - path: data/processed/test
       hash: md5
-      md5: 2f6a907af89b0d0329b7e9d188e88eb3.dir
-      size: 23896938
+      md5: ca793071fc08283d8da56bf7c8a4f26a.dir
+      size: 22409823
       nfiles: 106
     - path: data/processed/train
       hash: md5
-      md5: fc94ee0394866f843c1e5d36cef896fa.dir
-      size: 201173829
-      nfiles: 858
+      md5: 29ed9faf4185cc541911194cd42b4c84.dir
+      size: 198326087
+      nfiles: 852
     - path: data/processed/val
       hash: md5
-      md5: e69c85265119629eeb5cc2c08b4bcc96.dir
-      size: 23089101
+      md5: 5a8ef988cf4672976de6f47a1d7a3b61.dir
+      size: 26053105
       nfiles: 106

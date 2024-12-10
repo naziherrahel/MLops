@@ -7,7 +7,7 @@ def train_model(params):
     img_size = params["train"]["img_size"]
     
     model = YOLO(model_arch)
-    model.train(data="data.yaml", epochs=epochs, imgsz=img_size)
+    model.train(data="C:/Users/teachbricks/Desktop/Mlops/data.yaml", epochs=epochs, imgsz=img_size)
 
 if __name__ == "__main__":
     with open("params.yaml") as f:
