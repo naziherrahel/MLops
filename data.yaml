@@ -1,4 +1,4 @@
-path: 'C:/Users/teachbrick/Desktop/MLops/MLops/data/processed'
+path: './processed'
 train: 'train/images'     
 val: 'val/images'  
 #class names 
